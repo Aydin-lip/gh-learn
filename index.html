@@ -1,0 +1,938 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RESTAURANT page</title>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+
+
+  <nav>
+    <div class="navbar navbar-expand-lg fixed-top navbar-light bg-body shadow">
+      <div class="container-fluid my-lg-2">
+        <div class="d-flex align-items-center">
+          <a href="#" class="navbar-brand">
+            <img src="./logo.svg" alt="logo">
+          </a>
+          <form class="position-relative d-none d-sm-block ms-3">
+            <label for="Search" class="position-absolute position-label">
+              <i class="fa fa-search"></i>
+            </label>
+            <input type="text" class="form-control form-control-sm border-0 input-search-nav" id="Search" placeholder="Search" style="padding-left: 2rem;">
+          </form>
+        </div>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#targetnavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll" id="targetnavbar">
+          <form class="position-relative d-sm-none my-3 ms-2">
+            <label for="Search" class="position-absolute position-label">
+              <i class="fa fa-search"></i>
+            </label>
+            <input type="text" class="form-control input-search-nav border-0 ps-5" id="Search" placeholder="Search">
+          </form>
+          <ul class="navbar-nav ms-auto me-lg-3">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle fw-bolder animation" data-bs-toggle="dropdown">Home</a>
+              <ul class="dropdown-menu border-0 rounded-3 shadow animation-menu">
+                <li><a href="#" class="dropdown-item my-lg-2 ms-lg-1">Rooms</a></li>
+                <li><a href="#" class="dropdown-item my-lg-2 ms-lg-1">Reastaurants</a></li>
+                <li><a href="#" class="dropdown-item my-lg-2 ms-lg-1">Travel</a></li>
+                <li><a href="#" class="dropdown-item my-lg-2 ms-lg-1">Real Estate
+                    <span class="badge badge-info-light ms-1">new</span>
+                  </a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link dropdown-toggle fw-bolder animation" data-bs-toggle="dropdown">Template</a>
+  
+              <div class="dropdown-menu border-0 drop-nav p-0 animation-menu" style="width: 99%;">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="row p-3 pe-lg-0 ps-lg-5 pt-lg-5">
+                      <div class="col-sm-6 col-md-3">
+                        <h6 class="text-uppercase fw-bold">Homepage</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Rooms</a></li>
+                          <li><a href="#" class="droplista">Reastaurants</a></li>
+                          <li><a href="#" class="droplista">Travel</a></li>
+                          <li><a href="#" class="droplista">Real Estate</a>
+                            <span class="badge badge-info-light ms-1">new</span>
+                          </li>
+                        </ul>
+                        <h6 class="text-uppercase fw-bold mt-4">Reastaurants</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Category - Map on the top</a></li>
+                          <li><a href="#" class="droplista">Category - Map on the right</a></li>
+                          <li><a href="#" class="droplista">Category - no map</a></li>
+                          <li><a href="#" class="droplista">Restaurant detail</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <h6 class="text-uppercase fw-bold mt-4 mt-sm-0">Rooms</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Category - Map on the top</a></li>
+                          <li><a href="#" class="droplista">Category - Map on the right</a></li>
+                          <li><a href="#" class="droplista">Category - no map</a></li>
+                          <li><a href="#" class="droplista">Room detail</a></li>
+                        </ul>
+                        <h6 class="text-uppercase fw-bold mt-4">Blog</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Blog</a></li>
+                          <li><a href="#" class="droplista">Post</a></li>
+                        </ul>
+                        <h6 class="text-uppercase fw-bold mt-4">Pages</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Comparison</a></li>
+                          <li><a href="#" class="droplista">Team</a></li>
+                          <li><a href="#" class="droplista">Contact</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <h6 class="text-uppercase fw-bold mt-4 mt-md-0">Pages</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Pricing</a></li>
+                          <li><a href="#" class="droplista">Text page</a></li>
+                          <li><a href="#" class="droplista">F.A.Q.s</a></li>
+                          <li><a href="#" class="droplista">Coming soon</a></li>
+                          <li><a href="#" class="droplista">404 page</a></li>
+                          <li><a href="#" class="droplista">Knowledge Base</a>
+                            <span class="badge badge-info-light ms-1">new</span>
+                          </li>
+                          <li><a href="#" class="droplista">Knowledge Base - Topic</a>
+                            <span class="badge badge-info-light ms-1">new</span>
+                          </li>
+                          <li><a href="#" class="droplista">Knowledge Base</a>
+                            <span class="badge badge-info-light ms-1">new</span>
+                          </li>
+                        </ul>
+                        <h6 class="text-uppercase fw-bold mt-4">Host</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Add new listing - 6 pages</a></li>
+                          <li><a href="#" class="droplista">Bookings — list view</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <h6 class="text-uppercase fw-bold mt-4 mt-md-0">User</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#" class="droplista">Profile</a></li>
+                          <li><a href="#" class="droplista">Account</a></li>
+                          <li><a href="#" class="droplista">Personal info - forms</a></li>
+                          <li><a href="#" class="droplista">Password & security - forms</a></li>
+                          <li><a href="#" class="droplista">Sing in</a></li>
+                          <li><a href="#" class="droplista">Sing up</a></li>
+                          <li><a href="#" class="droplista">Booking process - 4 pages</a></li>
+                          <li><a href="#" class="droplista">Bookings — grid view</a></li>
+                          <li><a href="#" class="droplista">Booking detail</a></li>
+                          <li><a href="#" class="droplista">Invoice</a>
+                            <span class="badge badge-info-light ms-1">new</span>
+                          </li>
+                          <li><a href="#" class="droplista">Messages</a>
+                            <span class="badge badge-info-light ms-1">new</span>
+                          </li>
+                          <li><a href="#" class="droplista">Message Detail</a>
+                            <span class="badge badge-info-light ms-1">new</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row mt-3 mt-lg-5 ms-4">
+                      <div class="col-sm-6 col-md-3">
+                        <div>
+                          <h6>BEST RENTALS</h6>
+                          <p class="text-muted">Find the perfect place</p>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <div>
+                          <h6>EARN POINTS</h6>
+                          <p class="text-muted">And get great rewards</p>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <div>
+                          <h6>020-800-456-747</h6>
+                          <p class="text-muted">24/7 Available Support</p>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <div>
+                          <h6>SECURE PAYMENT</h6>
+                          <p class="text-muted">Secure Payment</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3 d-none d-lg-block position-relative">
+                    <img src="./photo-1521170665346-3f21e2291d8b.jpg" alt="dropdownimg" class="bg-image">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bolder">Contact</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle fw-bolder animation" data-bs-toggle="dropdown">Docs</a>
+              <ul class="dropdown-menu border-0 rounded-3 shadow animation-menu">
+                <h6 class="dropdown-header my-lg-2 ms-lg-1">DOCUMENTATION</h6>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Introduction </a>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Directory structure </a>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Gulp </a>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Customizing CSS </a>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Credits </a>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Credits </a>
+                <hr class="dropdown-divider">
+                <h6 class="dropdown-header my-lg-2">Components</h6>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Bootstrap </a>
+                <a href="#" class="dropdown-item my-lg-2 ms-lg-1">Theme </a>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bolder">Sing in</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bolder">Sing up</a></li>
+          </ul>
+        </div>
+  
+  
+  
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="section-header bg-secondary py-lg-5 d-flex justify-content-center align-items-center"
+    style="background-image: url(./headerphoto.jpg);">
+      <div class="container text-center my-lg-5 py-lg-5 py-5">
+        <div class="row">
+          <div class="col-10  text-light text-center w-100 h-100">
+            <h1 class="fw-bolder mt-5 mb-3 d-sm-none" style="font-size: 3rem;">Discover Directory</h1>
+            <h1 class="fw-bolder mt-5 mb-3 d-none d-sm-block d-lg-none" style="font-size: 4rem;">Discover Directory</h1>
+            <h1 class="fw-bolder d-none d-lg-block" style="font-size: 5rem;">Discover Directory</h1>
+            <h4 class="mb-3">Uncover the best places to eat, drink, and shop nearest to you.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <form>
+    <div class="container form-head">
+      <div class="row">
+        <div class="col-11 shadow m-auto py-3 px-4 py-lg-4 bg-body rounded-3">
+          <div class="row">
+            <div class="col-lg-4">
+              <input type="text" class="form-control input-form-head input-form-head1"
+                placeholder="What are you searching for?">
+            </div>
+            <div class="col-md-6 col-lg-3 mt-2 mt-lg-0">
+              <input type="text" class=" form-control input-form-head input-form-head2" placeholder="Location">
+            </div>
+            <div class="col-md-6 col-lg-3 mt-2 mt-lg-0">
+              <div class="dropdown drop-form-head">
+                <button class="btn bg-body dropdown-toggle w-100" data-bs-toggle="dropdown"
+                  style="color: #6c757d;">Categories</button>
+                <ul class="dropdown-menu w-100">
+                  <li><a href="#" class="dropdown-item">Reastaurants</a></li>
+                  <li><a href="#" class="dropdown-item">Hotels</a></li>
+                  <li><a href="#" class="dropdown-item">Cafes</a></li>
+                  <li><a href="#" class="dropdown-item">Garages</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 mt-3 mt-lg-0 d-flex align-items-center">
+              <button class="btn btn-primary px-lg-3 w-100">SEARCH</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <section>
+    <div class="container mt-lg-5 pt-lg-5">
+      <div class="row">
+        <div class="col d-flex align-items-center">
+          <div>
+            <h6 class="text-primary fw-bolder">MOST POPULAR CITIES</h6>
+            <h1 class="fw-bolder">What's trending</h1>
+          </div>
+          <div class="ms-auto">
+            <a href="#" class="text-muted">See all cities
+              <i class="fa fa-angle-double-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-lg-5 mt-3">
+        <div class="col">
+          <div class="row mb-lg-4">
+            <div class="col-lg-8 mb-3 mb-lg-0">
+              <div class="py-5 rounded-3 position-relative d-flex justify-content-center align-items-center shadow-lg AnimPhotoSection"
+                style="background: center center url(./img.section/photo-1449034446853-66c86144b0ad.jpg) no-repeat; background-size: cover;">
+                <a href="#" class="d-block w-100 h-100 position-absolute top-0 start-0"></a>
+                <h4 class="text-uppercase my-4 py-3 my-lg-5 py-lg-4 fw-bolder text-center h2 text-light">San Francisco
+                </h4>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3 mb-lg-0">
+              <div class="py-5 rounded-3 position-relative d-flex justify-content-center align-items-center shadow-lg AnimPhotoSection"
+                style="background: center center url(./img.section/photo-1429554429301-1c7d5ae2d42e.jpg) no-repeat; background-size: cover;">
+                <a href="#" class="d-block w-100 h-100 position-absolute top-0 start-0"></a>
+                <h4 class="text-uppercase my-4 py-3 my-lg-5 py-lg-4 fw-bolder text-center h2 text-light">Los Angeles
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-lg-5">
+            <div class="col-lg-4 mb-3 mb-lg-0">
+              <div class="py-5 rounded-3 position-relative d-flex justify-content-center align-items-center shadow-lg AnimPhotoSection"
+                style="background: center center url(./img.section/park.jpg) no-repeat; background-size: cover;">
+                <a href="#" class="d-block w-100 h-100 position-absolute top-0 start-0"></a>
+                <h4 class="text-uppercase my-4 py-3 my-lg-5 py-lg-4 fw-bolder text-center h2 text-light">Santa Monica
+                </h4>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3 mb-lg-0">
+              <div class="py-5 rounded-3 position-relative d-flex justify-content-center align-items-center shadow-lg AnimPhotoSection"
+                style="background: center center url(./img.section/photo-1505245208761-ba872912fac0.jpg) no-repeat; background-size: cover;">
+                <a href="#" class="d-block w-100 h-100 position-absolute top-0 start-0"></a>
+                <h4 class="text-uppercase my-4 py-3 my-lg-5 py-lg-4 fw-bolder text-center h2 text-light">San Diego</h4>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3 mb-lg-0">
+              <div class="py-5 rounded-3 position-relative d-flex justify-content-center align-items-center shadow-lg AnimPhotoSection"
+                style="background: center center url(./img.section/photo-1519867850-74775a87e783.jpg) no-repeat; background-size: cover;">
+                <a href="#" class="d-block w-100 h-100 position-absolute top-0 start-0"></a>
+                <h4 class="text-uppercase my-4 py-3 my-lg-5 py-lg-4 fw-bolder text-center h2 text-light">Fresno</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container my-lg-5 py-5 mt-5">
+      <div class="row">
+        <h5 class="fw-bolder text-danger">ONE-OF-A-KIND DIRECTORY APP</h5>
+        <h1 class="fw-bolder text-dark">Discover great local businesses around you</h1>
+      </div>
+      <div class="row mt-5 pt-lg-5">
+        <div class="col-lg-3">
+          <div>
+            <h5>FIND THE PERFECT PLACE</h5>
+            <p class="text-muted">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
+              in his bed in</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div>
+            <h5>BOOK YOUR SEATS</h5>
+            <p class="text-muted">The bedding was hardly able to cover it and seemed ready to slide off any moment. His
+              many legs, pit</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div>
+            <h5>ENJOY YOUR EVENING</h5>
+            <p class="text-muted">His room, a proper human room although a little too small, lay peacefully between its
+              four familiar</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div>
+            <h5>EARN POINTS</h5>
+            <p class="text-muted">Samsa was a travelling salesman - and above it there hung a picture that he had
+              recently cut out of</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="" style="background-color: #f3f3f3;">
+
+      <div class="container py-5">
+        <div class="pt-lg-5 text-center">
+          <h5 class="fw-bolder text-danger">TRY SOMETHING NEW TODAY</h5>
+          <h1 class="fw-bolder text-dark">Popular places around you</h1>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="">
+          <div class="swiper SwiperMenuItem pt-3" style="margin: 0 -.7rem;">
+  
+            <div class="swiper-wrapper mb-5" style="height: auto;">
+  
+              <div class="swiper-slide px-3 position-relative">
+                <div class="card rounded-3 ">
+                  <div class="card-img-top position-relative" style="height: 200px;">
+                    <div class="position-absolute top-0 bottom-0 start-0 end-0"
+                      style="background: center center url(./img.section/photoSection/restaurant-1430931071372-38127bd472b8.jpg); background-size: cover; filter: brightness(70%);">
+                    </div>
+                    <div class="p-2 position-absolute w-100 h-100 top-0 start-0">
+                      <div class="container">
+                        <div class="row">
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <span class="pt-1 px-2"
+                              style="background-color: #a9a9a9; font-size: .9rem; border-radius: 7px;">Reastaurants</span>
+                            <span class="bg-dark bg-opacity-75 p-3 rounded-circle text-light"><i
+                                class="far fa-heart opacity-75"></i></span>
+                          </div>
+                          <div class="mt-5 pt-2">
+                            <h3 class="fw-bolder text-light">Blue Hill</h3>
+                            <p class="" style="font-size: 13px;">
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-secondary"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#" class="position-absolute w-100 h-100 top-0 start-0" style="z-index: 1;"></a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="text-muted"> Cupidatat excepteur non dolore laborum et quis nostrud. my name is Aydin 
+                      deserunt. thank Pariatur dolore ut in elit id nulla. Irur...</p>
+                    <p class="text-muted mb-1">BY <a href="#" class="text-dark">MATT DAMON</a></p>
+                    <p class="mb-1"><a href="#" class="">Reastaurant,</a> <a href="#">Contemporary</a></p>
+                  </div>
+                </div>
+                <div class="position-absolute top-0 start-0 animationHover w-100 h-100"></div>
+              </div>
+              <div class="swiper-slide px-3 position-relative">
+                <div class="card rounded-3">
+                  <div class="card-img-top position-relative" style="height: 200px;">
+                    <div class="position-absolute top-0 bottom-0 start-0 end-0"
+                      style="background: center center url(./img.section/photoSection/restaurant-1436018626274-89acd1d6ec9d.jpg); background-size: cover; filter: brightness(70%);">
+                    </div>
+                    <div class="p-2 position-absolute w-100 h-100 top-0 start-0">
+                      <div class="container">
+                        <div class="row">
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <span class="pt-1 px-2"
+                              style="background-color: #a9a9a9; font-size: .9rem; border-radius: 7px;">Reastaurants</span>
+                            <span class="bg-dark bg-opacity-75 p-3 rounded-circle text-light"><i
+                                class="far fa-heart opacity-75"></i></span>
+                          </div>
+                          <div class="mt-5 pt-2">
+                            <h3 class="fw-bolder text-light">Plutorque</h3>
+                            <p class="" style="font-size: 13px;">
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-secondary"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#" class="position-absolute w-100 h-100 top-0 start-0" style="z-index: 1;"></a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="text-muted"> Proident irure eiusmod velit veniam consectetur id minim irure et nostrud
+                      mollit magna velit. Commodo amet proident aliq...</p>
+                    <p class="text-muted mb-1">BY <a href="#" class="text-dark">MATT DAMON</a></p>
+                    <p class="mb-1"><a href="#" class="">Reastaurant,</a> <a href="#">Fusion</a></p>
+                  </div>
+                </div>
+                <div class="position-absolute top-0 start-0 animationHover w-100 h-100"></div>
+              </div>
+              <div class="swiper-slide px-3 position-relative">
+                <div class="card rounded-3">
+                  <div class="card-img-top position-relative" style="height: 200px;">
+                    <div class="position-absolute top-0 bottom-0 start-0 end-0"
+                      style="background: center center url(./img.section/photoSection/restaurant-1466978913421-dad2ebd01d17.jpg); background-size: cover; filter: brightness(70%);">
+                    </div>
+                    <div class="p-2 position-absolute w-100 h-100 top-0 start-0">
+                      <div class="container">
+                        <div class="row">
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <span class="pt-1 px-2"
+                              style="background-color: #a9a9a9; font-size: .9rem; border-radius: 7px;">Music Club</span>
+                            <span class="bg-dark bg-opacity-75 p-3 rounded-circle text-light"><i
+                                class="far fa-heart opacity-75"></i></span>
+                          </div>
+                          <div class="mt-5 pt-2">
+                            <h3 class="fw-bolder text-light">Junipoor</h3>
+                            <p class="" style="font-size: 13px;">
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-secondary"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#" class="position-absolute w-100 h-100 top-0 start-0" style="z-index: 1;"></a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="text-muted"> Lorem amet ex duis in et fugiat consectetur laborum eiusmod labore. my name is Aydin. Quis
+                       do dolor in in magna. Eu sit quis ...</p>
+                    <p class="text-muted mb-1">BY <a href="#" class="text-dark">MATT DAMON</a></p>
+                    <p class="mb-1"><a href="#" class="">Music,</a> <a href="#">Techno,</a> <a href="#">House</a></p>
+                  </div>
+                </div>
+                <div class="position-absolute top-0 start-0 animationHover w-100 h-100"></div>
+              </div>
+              <div class="swiper-slide px-3 position-relative">
+                <div class="card rounded-3">
+                  <div class="card-img-top position-relative" style="height: 200px;">
+                    <div class="position-absolute top-0 bottom-0 start-0 end-0"
+                      style="background: center center url(./img.section/photoSection/restaurant-1477763858572-cda7deaa9bc5.jpg); background-size: cover; filter: brightness(70%);">
+                    </div>
+                    <div class="p-2 position-absolute w-100 h-100 top-0 start-0">
+                      <div class="container">
+                        <div class="row">
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <span class="pt-1 px-2"
+                              style="background-color: #a9a9a9; font-size: .9rem; border-radius: 7px;">Music Club</span>
+                            <span class="bg-dark bg-opacity-75 p-3 rounded-circle text-light"><i
+                                class="far fa-heart opacity-75"></i></span>
+                          </div>
+                          <div class="mt-5 pt-2">
+                            <h3 class="fw-bolder text-light">Musix</h3>
+                            <p class="" style="font-size: 13px;">
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-secondary"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#" class="position-absolute w-100 h-100 top-0 start-0" style="z-index: 1;"></a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="text-muted"> Deserunt eiusmod Lorem proident consequat elit culpa laboris ea cupidatat.
+                      Consequat dolore proident ipsum qui sint enim...</p>
+                    <p class="text-muted mb-1">BY <a href="#" class="text-dark">MATT DAMON</a></p>
+                    <p class="mb-1"><a href="#" class="">Music,</a> <a href="#">Club,</a> <a href="#">Rockّ</a></p>
+                  </div>
+                </div>
+                <div class="position-absolute top-0 start-0 animationHover w-100 h-100"></div>
+              </div>
+              <div class="swiper-slide px-3 position-relative">
+                <div class="card rounded-3">
+                  <div class="card-img-top position-relative" style="height: 200px;">
+                    <div class="position-absolute top-0 bottom-0 start-0 end-0"
+                      style="background: center center url(./img.section/photoSection/restaurant-1504087697492-238a6bf49ce8.jpg); background-size: cover; filter: brightness(70%);">
+                    </div>
+                    <div class="p-2 position-absolute w-100 h-100 top-0 start-0">
+                      <div class="container">
+                        <div class="row">
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <span class="pt-1 px-2"
+                              style="background-color: #a9a9a9; font-size: .9rem; border-radius: 7px;">Reastaurants</span>
+                            <span class="bg-dark bg-opacity-75 p-3 rounded-circle text-light"><i
+                                class="far fa-heart opacity-75"></i></span>
+                          </div>
+                          <div class="mt-5 pt-2">
+                            <h3 class="fw-bolder text-light">Prosure</h3>
+                            <p class="" style="font-size: 13px;">
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-secondary"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#" class="position-absolute w-100 h-100 top-0 start-0" style="z-index: 1;"></a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="text-muted"> Cillum sunt reprehenderit ea non irure veniam. my name is Aydin dolore commodo
+                      labore fugiat est
+                      consequat velit. Cupidatat nisi qui ad si...</p>
+                    <p class="text-muted mb-1">BY <a href="#" class="text-dark">MATT DAMON</a></p>
+                    <p class="mb-1"><a href="#" class="">Nisi,</a> <a href="#">Ex,</a> <a href="#">Eiusmod</a></p>
+                  </div>
+                </div>
+                <div class="position-absolute top-0 start-0 animationHover w-100 h-100"></div>
+              </div>
+              <div class="swiper-slide px-3 position-relative">
+                <div class="card rounded-3">
+                  <div class="card-img-top position-relative" style="height: 200px;">
+                    <div class="position-absolute top-0 bottom-0 start-0 end-0"
+                      style="background: center center url(./img.section/photoSection/restaurant-1505275350441-83dcda8eeef5.jpg); background-size: cover; filter: brightness(70%);">
+                    </div>
+  
+                    <div class="p-2 position-absolute w-100 h-100 top-0 start-0">
+                      <div class="container">
+                        <div class="row">
+                          <div class="mt-2 d-flex justify-content-between align-items-center">
+                            <span class="pt-1 px-2"
+                              style="background-color: #a9a9a9; font-size: .9rem; border-radius: 7px;">Cafe</span>
+                            <span class="bg-dark bg-opacity-75 p-3 rounded-circle text-light"><i
+                                class="far fa-heart opacity-75"></i></span>
+                          </div>
+                          <div class="mt-5 pt-2">
+                            <h3 class="fw-bolder text-light">Take That</h3>
+                            <p class="" style="font-size: 13px;">
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-secondary"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#" class="position-absolute w-100 h-100 top-0 start-0" style="z-index: 1;"></a>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="text-muted"> Cillum sunt reprehenderit ea non irure veniam. my name is Aydin dolore commodo
+                      labore fugiat est
+                      consequat velit. Cupidatat nisi qui ad si...</p>
+                    <p class="text-muted mb-1">BY <a href="#" class="text-dark">MATT DAMON</a></p>
+                    <p class="mb-1"><a href="#" class="">Nisi,</a> <a href="#">Ex,</a> <a href="#">Eiusmod</a></p>
+                  </div>
+                </div>
+                <div class="position-absolute top-0 start-0 animationHover w-100 h-100"></div>
+              </div>
+  
+            </div>
+  
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container pb-4">
+        <div class="p-5 d-flex justify-content-center align-items-center">
+          <button class="btn btn-outline-primary">SEE ALL PLACES</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class=" position-relative p-lg-5 p-4 bg-secondary">
+      <div class="position-absolute top-0 end-0 start-0 bottom-0">
+        <img src="./img.section/restaurant-147776385857-cda7deaa9bc5.jpg" class="bg-image" alt="photo section"
+          style="filter: brightness(70%);">
+      </div>
+      <div class="text-center text-light m-md-5 mx-md-3 p-md-5 py-5 position-relative" style="cursor: default;">
+        <h5 class="m-lg-4">FIND THE BEST SPOTS</h5>
+        <h1 class="fw-bolder m-lg-4 mt-4" style="font-size: 5rem;">Travel & Explore</h1>
+        <p class="fs-4 px-lg-5">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
+          in his bed
+          into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his
+          brown belly, slightly domed and divided by arches into stiff sections</p>
+        <button class="btn btn-primary mt-lg-5 mt-4">GET STARTED</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="py-lg-5">
+
+      <div class="container py-5">
+        <div class="row">
+          <h4 class="text-center fw-bolder">OUR BRANDS</h4>
+        </div>
+        <div class="row px-lg-5">
+          <div class="swiper SwiperBrands">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="p-5 me-2">
+                <img src="./img.section/svgSection/brand-1.svg" class="svgBrands">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-5 me-2">
+                <img src="./img.section/svgSection/brand-2.svg" class="svgBrands">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-5 me-2">
+                <img src="./img.section/svgSection/brand-3.svg" class="svgBrands">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-5 me-2">
+                <img src="./img.section/svgSection/brand-4.svg" class="svgBrands">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-5 me-2">
+                <img src="./img.section/svgSection/brand-5.svg" class="svgBrands">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="p-5 me-2">
+                <img src="./img.section/svgSection/brand-6.svg" class="svgBrands">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+
+    </div>
+  </section>
+
+  <main>
+    <div class="" style="background-color: #f8f9fa;">
+      <div class="container py-5">
+        <div class="row my-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <p class="text-danger fs-5">START USING DIRECTORY TODAY</p>
+            <p class="fw-bolder fs-4">Directory is the best way to find & discover great local businesses</p>
+            <p class="text-muted mt-lg-3 fs-5">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in</p>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0 d-flex flex-column justify-content-center align-items-center">
+            <button class="btn btn-lg btn-primary pb-1">CREAT YOUR ACCOUNT</button>
+            <span class="text-muted p-3 fs-5">It's free!</span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container-fluid">
+        <div class="row">
+          <div class="swiper SwiperMain p-0">
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-1.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-2.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-3.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-4.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-5.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-6.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-7.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-8.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-9.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-10.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-11.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgMain">
+                  <img src="./img.section/imgMain/instagram-12.webp" style="width: 100%; height: 100%;">
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="" style="background-color: #e9ecef;";">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 py-lg-5">
+            <div class="row">
+              <div class="col-lg-4">
+                <h6 class="fw-bolder">DIRECTORY</h6>
+                <p class="text-muted my-lg-3">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <div class="">
+                  <a class="text-muted text-decoration-none me-1" target="_blank" href="https://twitter.com/Aydin_lip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="twitter"><i class="fab fa-twitter"></i></a>
+                  <a class="text-muted text-decoration-none me-1" target="_blank" href="https://www.facebook.com/ayidn.lip7" data-bs-toggle="tooltip" data-bs-placement="bottom" title="facebook"><i class="fab fa-facebook"></i></a>
+                  <a class="text-muted text-decoration-none me-1" target="_blank" href="https://www.instagram.com/aydin.lip/" data-bs-toggle="tooltip" data-bs-placement="bottom" title="instagram"><i class="fab fa-instagram"></i></a>
+                  <a class="text-muted text-decoration-none me-1" target="_blank" href="https://t.me/aydin_lip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="telegram"><i class="fab fa-telegram" ></i></a>
+                  <a class="text-muted text-decoration-none me-1" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-2 mt-4 mt-lg-0">
+                <h6 class="fw-bolder">RENTALS</h6>
+                <ul class="list-unstyled my-lg-3">
+                  <li><a href="#" class="text-muted text-decoration-none">Rooms</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Map on top</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Nide map</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">No map</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Room detail</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-2 mt-4 mt-lg-0">
+                <h6 class="fw-bolder">PAGES</h6>
+                <ul class="list-unstyled my-lg-3">
+                  <li><a href="#" class="text-muted text-decoration-none">Comparison</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Team</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 mt-4 mt-lg-0">
+                <h6 class="fw-bolder">DAILY OFFERS & DISCOUNTS</h6>
+                <p class="text-muted my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+                <div class="input-group">
+                  <input type="text" class="form-control border-end-0" style="border: 1px solid black; background-color: #e9ecef;" placeholder="Your Email Address">
+                  <button class="btn btn-outline-dark border-start-0 fs-4"><i class="fab fa-telegram-plane"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-4" style="background-color: #343a40;">
+      <div class="container">
+        <div class="row">
+          <span class="text-light opacity-75">© 2021, Your company. All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+  <script>
+
+    var SwiperMenuItem = new Swiper(".SwiperMenuItem", {
+      slidesPerView: "auto",
+      // spaceBetween: 10,
+      freeMode: true,
+      // grabCursor: true,
+      centeredSlides: true,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 2
+        },
+        768: {
+          slidesPerView: 2
+        },
+        991: {
+          slidesPerView: 3
+        },
+        1200: {
+          slidesPerView: 4
+        },
+        1400: {
+          slidesPerView: 5
+        },
+        1600: {
+          slidesPerView: 6
+        },
+        1800: {
+          slidesPerView: 7
+        },
+
+      }
+    })
+
+    var SwiperBrands = new Swiper(".SwiperBrands", {
+      slidesPerView: 2,
+      // centeredSlides: true,
+      loop: true,
+      breakpoints: {
+        576: {
+          slidesPerView: 2
+        },
+        768: {
+          slidesPerView: 3
+        },
+        991: {
+          slidesPerView: 4
+        },
+        1200: {
+          slidesPerView: 6
+        }
+      }
+    })
+
+    var SwiperMain = new Swiper(".SwiperMain", {
+      slidesPerView: 4,
+      // spaceBetween: 10,
+      loop: true,
+      breakpoints: {
+        768: {
+          slidesPerView: 5
+        },
+        991: {
+          slidesPerView: 8
+        },
+        1200: {
+          slidesPerView: 10
+        },
+        1400: {
+          slidesPerView: 12
+        },
+        1800: {
+          slidesPerView: 16
+        }
+
+      }
+    })
+
+  </script>
+
+
+</html>

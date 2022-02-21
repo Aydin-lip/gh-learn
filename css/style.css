@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 50%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+	font-family: 'Segoe print', "Times New Roman", Times, serif, "Metal Mania";
+	/* font-family: "Font Awesome\ 5 Free"; */
+	/* font-family: 'Poppins,sans-serif'; */
+}
+
+
+
+
+.droplista {
+    text-decoration: none;
+    color: #727272;
+    font-size: 14px;
+}
+
+.badge-info-light {
+    color: #17a2b8;
+    background-color: #dcf1f4;
+}
+
+.drop-nav {
+    box-shadow: 0 0rem 1.5rem rgba(0,0,0,0.175);
+	border-radius: 0;
+	width: 100%;
+}
+
+img.bg-image {
+    font-family: 'object-fit: cover;';
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.dropdown-menu {
+	opacity: 1;
+	transition: all .5s ease;
+}
+
+.input-search-nav {
+	width: 13rem;
+	background-color: #eee;
+	transition: all .5s ease;
+}
+
+
+.input-search-nav:focus {
+	box-shadow: 0px 0px;
+	background-color: #eee;
+	width: 15rem;
+	transition: all .5s ease;
+}
+.position-label {
+    top: 30%;
+    left: 3%;
+    color: #727272;
+}
+
+.section-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.input-form-head {
+	border: 0px;
+}
+.input-form-head2 {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.input-form-head:focus {
+	box-shadow: 0px 0px;
+}
+.drop-form-head {
+	display: flex;
+	align-items: center;
+}
+
+
+.form-head {
+	position: relative;
+    top: -50px;
+}
+
+
+.card {
+	min-width: 280px !important;
+	height: auto;
+	transition: all .5s ease;
+	z-index: 2;
+	box-shadow: 0 0 1rem rgb(0 0 0 / 15%);
+	border: 0px;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	z-index: 3;
+	box-shadow: 0 0 1rem rgb(0 0 0 / 35%);
+	transition: all .5s ease;
+	/* animation: cardanim .5s ease; */
+}
+
+
+@keyframes cardanim {
+	0% {
+		transform: rotate(0deg) translateX(0px) translateY(0px);
+	}
+	8% {
+		transform: rotate(-1deg) translateX(-8px) translateY(-1px);
+	}
+	16% {
+		transform: rotate(-2deg) translateX(-16px) translateY(-2px);
+	}
+	25% {
+		transform: rotate(-3deg) translateX(-25px) translateY(-3px);
+	}
+	33% {
+		transform: rotate(-4deg) translateX(-33px) translateY(-4px);
+	}
+	41% {
+		transform: rotate(-4.5deg) translateX(-41px) translateY(-6px);
+	}
+	50% {
+		transform: rotate(-5deg) translateX(-50px) translateY(-8px);
+	}
+	58% {
+		transform: rotate(-4.5deg) translateX(-41px) translateY(-9px);
+	}
+	66% {
+		transform: rotate(-4deg) translateX(-33px) translateY(-10.5px);	
+	}
+	75% {
+		transform: rotate(-3deg) translateX(-25px) translateY(-12px);
+	}
+
+	100% {
+		transform: rotate(0deg) translateX(-8px) translateY(-15px);
+	}
+
+}
+
+
+.svgBrands {
+	height: 6rem;
+	opacity: .6;
+}
+.imgMain {
+	max-width: 160px;
+	transition: all .3s ease;
+}
+.imgMain:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: all .3s ease;
+}
+
+.AnimPhotoSection {
+	transition: all .2s ease;
+}
+.AnimPhotoSection:hover {
+	transform: translateY(-3px);
+	transition: all .3s ease;
+}
