@@ -123,31 +123,3 @@ PasswordInput.forEach(item => {
 
 
 
-
-// let num = 16
-
-// let sum = x => {
-//     return x * 2
-// }
-
-// export default sum
-// export {num, sum}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
