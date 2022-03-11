@@ -16,11 +16,11 @@
 </head>
 
 <body>
+    <!-- <br>
     <br>
-    <br>
-    <br>
+    <br> -->
 
-    <div>
+    <div style="height: 100vh; display: flex; align-items: center;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto position-relative">
@@ -28,55 +28,56 @@
                         style="background: center center url(./pexels-picasso-dela-cruz-168088.jpg); background-size: cover; filter: brightness(60%);">
                     </div>
 
-                    <div class="row position-relative">
+                    <div class="row position-relative forms">
 
-                        <div
-                            class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-cheng-form">
-                            <h1 class="fw-bold text-light form-head-text" style="cursor: default;">Welcome Back</h1>
-                            <p class="text-light my-lg-2 form-p-text" style="cursor: default;">if you already have
-                                account pleas login <br>
-                                to keep connected with us.
-                            </p>
-                            <button class="btn btn-primary rounded-pill mt-lg-4 cheng-form-login">SIGN IN</button>
+                        <div class="col-md-6 d-flex align-items-center justify-content-center p-0 text-cheng-form">
+                            <div class=" py-4 py-md-0 d-flex flex-column justify-content-center align-items-center" style="height: 200px;">
+                                <h1 class="fw-bold text-light form-head-text" style="cursor: default;">Welcome Back</h1>
+                                <p class="text-light my-lg-2 form-p-text" style="cursor: default;">if you already have
+                                    account pleas login <br>
+                                    to keep connected with us.
+                                </p>
+                                <button class="btn btn-primary rounded-pill mt-lg-4 cheng-form-login">SIGN IN</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-none align-items-center justify-content-center p-0 text-cheng-form">
+                            <div class="p-4 p-md-0 d-flex flex-column justify-content-center align-items-center" style="height: 200px;">
+                                <h1 class="fw-bold text-light form-head-text" style="cursor: default;">Hello Friend</h1>
+                                <p class="text-light form-p-text" style="cursor: default;">Don't have account ? Please sign
+                                    up with <br>
+                                    your personal details to connect with us !
+                                </p>
+                                <button class="btn btn-primary rounded-pill cheng-form-login">SIGN UP</button>
+                            </div>
                         </div>
 
-                        <div
-                            class="col-lg-6 d-none flex-column justify-content-center align-items-center text-cheng-form">
-                            <h1 class="fw-bold text-light form-head-text" style="cursor: default;">Hello Friend</h1>
-                            <p class="text-light form-p-text" style="cursor: default;">Don't have account ? Please sign
-                                up with <br>
-                                your personal details to connect with us !
-                            </p>
-                            <button class="btn btn-primary rounded-pill cheng-form-login">SIGN UP</button>
-                        </div>
+                        <form action="#" class="col-md-6 bg-black bg-opacity-50 p-3 p-lg-5 text-light form-main needs-validation">
 
-                        <form action="#" class="col-lg-6 bg-black bg-opacity-50 p-lg-5 text-light form-main needs-validation">
-
-                            <div class="d-flex justify-content-center align-items-center flex-column p-lg-1 cheng-form">
+                            <div class="d-flex justify-content-center align-items-center flex-column cheng-form">
                                 <h1 class="fw-bold pt-3" style="cursor: default;">Creat Account</h1>
-                                <div class="icons my-lg-3" style="cursor: default;">
+                                <div class="icons my-2 my-md-3" style="cursor: default;">
                                     <a href="#" class="icon-form-sign" title="facebook" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fab fa-facebook"></i></a>
                                     <a href="#" class="icon-form-sign" title="google" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fab fa-google"></i></a>
                                     <a href="#" class="icon-form-sign" title="instagram" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fab fa-instagram"></i></a>
                                 </div>
-                                <span class="my-lg-2" style="cursor: default;">Creat an account for free</span>
-                                <input type="text" class="input-form-sign my-lg-3" placeholder="Name">
-                                <input type="email" class="input-form-sign my-lg-3 Email-input" placeholder="Email">
-                                <input type="password" class="input-form-sign my-lg-3 Password-input" placeholder="Password">
-                                <button class="btn btn-light rounded-pill mt-lg-4 mb-3">SIGN UP</button>
+                                <span class="my-2" style="cursor: default;">Creat an account for free</span>
+                                <input type="text" class="input-form-sign my-1 my-md-2" placeholder="Name">
+                                <input type="email" class="input-form-sign my-1 my-md-2 Email-input" placeholder="Email">
+                                <input type="password" class="input-form-sign my-1 my-md-2 Password-input" placeholder="Password">
+                                <button class="btn btn-light rounded-pill mt-3 mt-md-4 mb-3">SIGN UP</button>
                             </div>
 
-                            <div class="d-none justify-content-center align-items-center flex-column p-lg-5 cheng-form">
+                            <div class="d-none justify-content-center align-items-center flex-column p-sm-3 p-lg-4 cheng-form">
                                 <h1 class="fw-bold pt-3">Sign In</h1>
-                                <div class="icons my-lg-3" style="cursor: default;">
+                                <div class="icons my-3" style="cursor: default;">
                                     <a href="#" class="icon-form-sign" title="facebook" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fab fa-facebook"></i></a>
                                     <a href="#" class="icon-form-sign" title="google" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fab fa-google"></i></a>
                                     <a href="#" class="icon-form-sign" title="instagram" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fab fa-instagram"></i></a>
                                 </div>
-                                <span class="my-lg-2">Already have account ?</span>
-                                <input type="email" class="input-form-sign my-lg-2 Email-input" placeholder="Email">
-                                <input type="password" class="input-form-sign my-lg-2 Password-input" placeholder="Password">
-                                <button class="btn btn-light rounded-pill mt-lg-4 mb-3"> SIGN IN</button>
+                                <span class="my--2">Already have account ?</span>
+                                <input type="email" class="input-form-sign my-1 my-md-2 Email-input" placeholder="Email">
+                                <input type="password" class="input-form-sign my-1 my-md-2 Password-input" placeholder="Password">
+                                <button class="btn btn-light rounded-pill mt-3 mt-lg-4 mb-3"> SIGN IN</button>
                             </div>
 
                         </form>
